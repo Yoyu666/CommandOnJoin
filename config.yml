@@ -1,0 +1,19 @@
+# JoinCommand by HuaYoyu Config File;
+############################################################################
+# {player} = the player that joins the game;
+############################################################################
+# Command executed when player joins the game;
+enablejoin: true
+JoinCommand: tell {player} You are awesome:3!
+############################################################################
+# Command executed when player dies;
+enabledeath: true
+DeathCommand: say {player} Died has again...
+############################################################################
+# Command executed when player does /spawn or respawns into the game;
+enablespawn: true
+RespawnCommand: tell {player} Welcome back to spawn!
+############################################################################
+# Command executed when player leaves the game;
+enableleave: true
+LeaveCommand: say {player} quit from the server!
