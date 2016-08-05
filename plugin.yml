@@ -4,6 +4,6 @@ version: §cIndev§a
 api: 2.0.0
 author: HuaYoyu & YoungRichNigger9
 load: "STARTUP"
-description: "Went a player join,it will auto run command!"
+description: "Went a player join,he will get a effect!"
 website: "https://github.com/Yoyu666/CommandOnJoin"
 commands:
