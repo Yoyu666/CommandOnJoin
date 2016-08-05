@@ -1,6 +1,6 @@
 name: §bCommandOnJoin§c
 main: Yoyu\CmdOnJoin\Main
-version: §cIndev§a
+version: §c1.0.0§a
 api: 2.0.0
 author: HuaYoyu & YoungRichNigger9
 load: "STARTUP"
