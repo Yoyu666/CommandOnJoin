@@ -1,0 +1,9 @@
+name: §bCommandOnJoin§c
+main: Yoyu\CmdOnJoin\main
+version: §cIndev§a
+api: 2.0.0
+author: HuaYoyu & YoungRichNigger9
+load: "STARTUP"
+description: "Went a player join,it will auto run command!"
+website: "https://github.com/Yoyu666/CommandOnJoin"
+commands:
