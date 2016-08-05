@@ -4,12 +4,12 @@
 # Command executed when player joins the game;
 enablejoin: true
 JoinCommand: 
-- effect {player} 1 1 60
+- effect {player} 1 300 0
 - tell {player} You are awesome!
 # Command executed when player dies;
 enabledeath: true
 DeathCommand: 
-- say {player} Died again...
+- say {player} has Died again...
 # Command executed when player does /spawn or respawns into the game;
 enablespawn: true
 RespawnCommand: 
@@ -17,4 +17,4 @@ RespawnCommand:
 # Command executed when player leaves the game;
 enableleave: true
 LeaveCommand: 
-- say {player} ragequit from the server!
+- say {player} leave the server!
