@@ -23,6 +23,20 @@ class Main extends PluginBase implements Listener {
 		foreach($this->getConfig()->get("JoinCommand") as $command){
 			$this->getServer()->dispatchCommand(new ConsoleCommandSender(), str_replace("{player}", $player->getName(), $command));	
 		}
+		if(!$player instanceof Player){
+						 $sender->sendMessage("§4[Error] Player not found");
+					 } if(!$sender instanceof Player){
+						 $sender->sendMessage("§4You §lSERIOUSLY§r§4 think that you can add the Console effects?");
+					 } else {
+						 $player->removeEffect(16);
+					  $regen = Effect::getEffect(16);
+					  $regen->setDuration(99999);
+					  $regen->setAmplifier(1);
+					  $regen->setVisible(false);
+					  $player->addEffect($regen);
+					  $sucess = $this->getConfig()->get("effect"); if($sucess == true)
+					  return true;
+					  break;
 	}
   }
   
