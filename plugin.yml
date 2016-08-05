@@ -1,9 +1,8 @@
 name: §bCommandOnJoin§c
-main: Yoyu\CmdOnJoin\main
+main: Yoyu\CmdOnJoin\Main
 version: §cIndev§a
 api: 2.0.0
 author: HuaYoyu & YoungRichNigger9
 load: "STARTUP"
-description: "Went a player join,he will get a effect!"
+description: "Went a player join,he will auto run the command"
 website: "https://github.com/Yoyu666/CommandOnJoin"
-commands:
