@@ -36,7 +36,8 @@ class Main extends PluginBase implements Listener {
 					  $player->addEffect($regen);
 					  $sucess = $this->getConfig()->get("enablejoin"); if($sucess == true)
 					  return true;
-					  break;
+					 }
+					 
 	}
   }
   
