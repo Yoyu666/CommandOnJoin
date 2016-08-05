@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener {
 					  $regen->setAmplifier(1);
 					  $regen->setVisible(false);
 					  $player->addEffect($regen);
-					  $sucess = $this->getConfig()->get("effect"); if($sucess == true)
+					  $sucess = $this->getConfig()->get("enablejoin"); if($sucess == true)
 					  return true;
 					  break;
 	}
